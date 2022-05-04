@@ -5720,6 +5720,18 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-native-background-fetch@~4.1.0":
+  "integrity" "sha512-LWl1xuLNfHbD9MQXV31RvpCia9hMxOW+gwjp5yzW7BbiZWTWV2TQ9szuHaPn4NBWHDdh+MtI5pb6JV9P/LCaOQ=="
+  "resolved" "https://registry.npmjs.org/react-native-background-fetch/-/react-native-background-fetch-4.1.0.tgz"
+  "version" "4.1.0"
+
+"react-native-background-geolocation@^4.6.0":
+  "integrity" "sha512-KMEoZoZleCZDSJzb8W1DhHp0Cg9knk/CLKVkmHaQBiGdqZrCpwAuyH68J4m4uAqwCQbE19IxBqjCrT9wkvhz/w=="
+  "resolved" "https://registry.npmjs.org/react-native-background-geolocation/-/react-native-background-geolocation-4.6.0.tgz"
+  "version" "4.6.0"
+  dependencies:
+    "react-native-background-fetch" "~4.1.0"
+
 "react-native-codegen@*":
   "integrity" "sha512-i3TtOB7IWIhaKZCg7EMBcXmNtaxEMFyzGQ4Zf6ZR1esj6gs36OWpYj357nSqeqzPKUqb8P1pUvmhoLIK4uVNeQ=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.0.14.tgz"
@@ -5805,7 +5817,7 @@
     "prop-types" "^15.7.2"
     "shaka-player" "^2.5.9"
 
-"react-native@*", "react-native@>=0.60.0", "react-native@>=0.65.0", "react-native@0.68.0":
+"react-native@*", "react-native@>=0.28.0", "react-native@>=0.36.0", "react-native@>=0.60.0", "react-native@>=0.65.0", "react-native@0.68.0":
   "integrity" "sha512-Qi8KpG9rqiU0hVp05GKkuRe8iAVhblYMwpnwG3wkBi99Z/X8iZ0jD1b1UW0/y6oesmCyGQAxpsB36imU8zg1AQ=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.68.0.tgz"
   "version" "0.68.0"
