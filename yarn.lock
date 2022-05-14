@@ -5775,6 +5775,11 @@
   dependencies:
     "react-native-codegen" "*"
 
+"react-native-image-crop-picker@^0.37.3":
+  "integrity" "sha512-ih+0pWWRUNEFQyaHwGbH9rqJNOb7EBYMwKJhTY0VmsKIA9E+usfwMmQXAFIfOnee7fTn0A2vOXkBCPQZwyvnQw=="
+  "resolved" "https://registry.npmjs.org/react-native-image-crop-picker/-/react-native-image-crop-picker-0.37.3.tgz"
+  "version" "0.37.3"
+
 "react-native-modal-datetime-picker@^13.1.2":
   "integrity" "sha512-PZDkuY7HayRX1KE2X2dm29CvCLzwj/vn6B6QdPbjZea/GEKvHBMOLGdhFCcA9+gD64Y41+VqfytUh2fdvUvQ1g=="
   "resolved" "https://registry.npmjs.org/react-native-modal-datetime-picker/-/react-native-modal-datetime-picker-13.1.2.tgz"
@@ -5817,7 +5822,7 @@
     "prop-types" "^15.7.2"
     "shaka-player" "^2.5.9"
 
-"react-native@*", "react-native@>=0.28.0", "react-native@>=0.36.0", "react-native@>=0.60.0", "react-native@>=0.65.0", "react-native@0.68.0":
+"react-native@*", "react-native@>=0.28.0", "react-native@>=0.36.0", "react-native@>=0.40.0", "react-native@>=0.60.0", "react-native@>=0.65.0", "react-native@0.68.0":
   "integrity" "sha512-Qi8KpG9rqiU0hVp05GKkuRe8iAVhblYMwpnwG3wkBi99Z/X8iZ0jD1b1UW0/y6oesmCyGQAxpsB36imU8zg1AQ=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.68.0.tgz"
   "version" "0.68.0"

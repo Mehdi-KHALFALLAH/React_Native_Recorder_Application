@@ -18,6 +18,7 @@
     "react-native": "0.68.0",
     "react-native-background-geolocation": "^4.6.0",
     "react-native-fast-image": "^8.5.11",
+    "react-native-image-crop-picker": "^0.37.3",
     "react-native-modal-datetime-picker": "^13.1.2",
     "react-native-video": "^5.2.0"
   },
