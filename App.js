@@ -25,6 +25,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import VideoRecorder from 'react-native-beautiful-video-recorder';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -53,6 +54,19 @@ const Section = ({children, title}): Node => {
 };
 
 const App: () => Node = () => {
+  
+ const startRecordVideo = () => {
+    videoRecord.current.open({ maxLength: 30 }, (data) => {
+      console.log('captured data', data);
+    });
+  }
+
+ </View>
+<View style={styles.chatActionContainer}>
+  <TouchableOpacity style={styles.action} onPress={() => startRecordVideo()} ><Icon name="film" size={24} color={"#333"} /></TouchableOpacity>
+ </View>
+ <VideoRecorder ref={videoRecord} />
+</View>
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
